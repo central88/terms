@@ -7,9 +7,7 @@
     <meta http-equiv="refresh" content="delay_time; URL=new_website_url" />
     <script>
       function redirect() {
-        setTimeout(function () {
           window.location.href = "https://www.google.com/";
-        }, 1000);
       }
       function scrollToText(text) {
         const element = document.getElementById(text);
@@ -17,7 +15,7 @@
           element.scrollIntoView({ behavior: "smooth" });
         }
       }
-      window.onload = redirect;
+      //window.onload = redirect;
     </script>
     <link rel="stylesheet" href="style.css" />
   </head>
